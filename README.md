@@ -23,15 +23,15 @@ local windowSize = require("windowSize")
 
 ## API
 
-### getInfo
+### getSize
 
-Returns a _Table_ of the browser window size properties.
+Returns a _Table_ of the browser window size properties, or a _Number_ if `property` is supplied.
 
 ```lua
-windowSize.getInfo()
+windowSize.getSize([property])
 ```
 
-__Properties Returned__
+__Properties__
 
  - `innerWidth`
  - `innerHeight`
@@ -50,6 +50,16 @@ local windowSize = require("windowSize")
 local info = windowSize.getInfo()
 
 print(info.innerWidth) --> 960
+```
+
+__Direct access `innerHeight`__
+
+```lua
+local windowSize = require("windowSize")
+
+local innerHeight = windowSize.getSize('innerHeight')
+
+print(innerHeight) --> 960
 ```
 
 _Event listener_

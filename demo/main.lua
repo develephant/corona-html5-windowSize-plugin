@@ -6,8 +6,12 @@ local sizeTxt
 
 local windowSize = require("windowSize")
 
+--#############################################################################
+--# Window Size Information
+--#############################################################################
+
 local function onBrowserResize()
-  local win = windowSize.getInfo()
+  local win = windowSize.getSize()
 
   for prop, val in pairs(win) do
     sizeTxt[prop].text = prop..': '..val
@@ -15,7 +19,7 @@ local function onBrowserResize()
 end
 
 Runtime:addEventListener( "resize", onBrowserResize )
---# Initial `onResize` called below for demo.
+--# Initial `onBrowserResize` called below for demo.
 
 --#############################################################################
 --# UI
