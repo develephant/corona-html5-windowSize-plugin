@@ -6,7 +6,7 @@ local sizeTxt
 
 local windowSize = require("windowSize")
 
-local function onResize()
+local function onBrowserResize()
   local win = windowSize.getInfo()
 
   for prop, val in pairs(win) do
@@ -14,7 +14,7 @@ local function onResize()
   end
 end
 
-Runtime:addEventListener( "resize", onResize )
+Runtime:addEventListener( "resize", onBrowserResize )
 --# Initial `onResize` called below for demo.
 
 --#############################################################################
