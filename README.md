@@ -1,6 +1,6 @@
 # ![logo](icons/logo.png) Corona HTML5 Window Size Plugin
 
-__Get browser window sizing information on demand or on update.__
+__Get browser window sizing information on demand or via event.__
 
 ## Installation
 
@@ -29,4 +29,4 @@ _Windows browser unconfirmed._
 
 ---
 
-%copy;2018 C. Byerley ([develephant](https://develephant.com))
+&copy;2018 C. Byerley ([develephant](https://develephant.com))
