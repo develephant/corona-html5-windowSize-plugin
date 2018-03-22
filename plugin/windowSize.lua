@@ -18,7 +18,7 @@ else
 		print( "WARNING: The '" .. lib.name .. "' library is not available on this platform." )
   end
   
-  lib.getInfo = defaultFunction
+  lib.getSize = defaultFunction
 end
 
 return lib
