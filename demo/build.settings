@@ -18,7 +18,7 @@ settings =
     defaultViewHeight = 640,
     resizable = true,
     titleText = {
-      default = "Window Resize Plugin - Corona HTML5"
+      default = "Window Size Plugin - Corona HTML5"
     }
   },
 

@@ -61,7 +61,7 @@ end
 
 --# Init Values
 if system.getInfo('platform') == 'html5' then
-  onResize()
+  onBrowserResize()
 else
   title.text = "Please run in a browser"
 end
