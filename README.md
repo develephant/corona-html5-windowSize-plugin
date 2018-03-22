@@ -16,13 +16,13 @@ local windowSize = require("windowSize")
 
 ### getInfo
 
-Returns a Table of the browser window size properties.
+Returns a _Table_ of the browser window size properties.
 
 ```lua
 windowSize.getInfo()
 ```
 
-__Properties__
+__Properties Returned__
 
  - `innerWidth`
  - `innerHeight`
