@@ -13,19 +13,19 @@ window.windowSize_js =
         innerWidth:   win.innerWidth,
         outerHeight:  win.outerHeight,
         outerWidth:   win.outerWidth,
-        screenLeft:   win.screenLeft || win.screenY,
-        screenTop:    win.screenTop || win.screenX
+        screenLeft:   win.screenLeft || win.screenX,
+        screenTop:    win.screenTop || win.screenY
       }
     
       return sizes; 
     } else {
       //firefox check
       if (prop == 'screenLeft') {
-        return win.screenLeft || win.screenY;
+        return win.screenLeft || win.screenX;
       }
 
       if (prop == 'screenTop') {
-        return win.screenTop || win.screenX;
+        return win.screenTop || win.screenY;
       }
 
       return win[prop];
