@@ -2,6 +2,15 @@
 
 __Get browser window sizing information on demand or via event.__
 
+## Browser Tests
+
+|![chrome](icons/chrome.png)|![ie](icons/ie.png)|![firefox](icons/firefox.png)|![safari](icons/safari.png)|![opera](icons/opera.png)|
+|---------------------------|-------------------|-----------------------------|---------------------------|-------------------------|
+|![pass](icons/pass.png)|![untested](icons/untested.png)|![pass](icons/pass.png)|![pass](icons/pass.png)|![untested](icons/pass.png)|
+
+
+_Windows browser unconfirmed._
+
 ## Installation
 
  - Download the __Corona HTML5 Window Size Plugin__ respository.
