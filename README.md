@@ -47,7 +47,7 @@ _Direct access_
 ```lua
 local windowSize = require("windowSize")
 
-local info = windowSize.getInfo()
+local info = windowSize.getSize()
 
 print(info.innerWidth) --> 960
 ```
@@ -68,7 +68,7 @@ _Event listener_
 local windowSize = require("windowSize")
 
 local function onBrowserResize()
-  local info = windowSize.getInfo()
+  local info = windowSize.getSize()
 
   print(info.innerWidth) --> 1020
 end
