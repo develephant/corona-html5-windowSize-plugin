@@ -60,4 +60,8 @@ for i=1, #sizeLbls do
 end
 
 --# Init Values
-onResize()
+if system.getInfo('platform') == 'html5' then
+  onResize()
+else
+  title.text = "Please run in a browser"
+end
