@@ -52,7 +52,7 @@ local info = windowSize.getSize()
 print(info.innerWidth) --> 960
 ```
 
-__Direct access `innerHeight`__
+_Direct access (via property)_
 
 ```lua
 local windowSize = require("windowSize")
