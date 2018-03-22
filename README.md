@@ -48,13 +48,13 @@ _Event listener_
 ```lua
 local windowSize = require("windowSize")
 
-local function onResize()
+local function onBrowserResize()
   local info = windowSize.getInfo()
 
   print(info.innerWidth) --> 1020
 end
 
-Runtime:addEventListener( "resize", onResize )
+Runtime:addEventListener( "resize", onBrowserResize )
 ```
 
 ## Demo
